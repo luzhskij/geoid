@@ -30,7 +30,7 @@ And change it to
 {{{
 set PATH=%PATH%;C:\Qt\4.3.4\bin
 }}}
-Once you finish go to the start Menu: Programs -> Qt by Trolltech (OpenSource) -> Qt Command Prompt. Change the directory to you projects directory, and type the following commands:
+That's because this Qt bat file replaces system path variable, which contains path to subversion binaries. Once you finish go to the start Menu: Programs -> Qt by Trolltech (OpenSource) -> Qt Command Prompt. Change the directory to you projects directory, and type the following commands:
 {{{
 svn checkout http://geoid.googlecode.com/svn/trunk/ geoid
 cd geoid
