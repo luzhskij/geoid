@@ -18,3 +18,5 @@ Geoid executable binary will appear in bin/ subfolder
 
 
 == Under Windows ==
+First of all you should install Qt development libraries and MinGW(which is a Windows port of GNU Compileres). Qt installation file is available here: http://trolltech.com/developer/downloads/qt/windows . During installation it will offer you to download MinGW - you should agree with it.
+Next step is installing subversion.
