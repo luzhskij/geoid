@@ -22,7 +22,7 @@ First of all you should install Qt development libraries and MinGW(which is a Wi
 
 Next step is installing subversion. You can download the latest version here : http://subversion.tigris.org/servlets/ProjectDocumentList?folderID=91 At the time of writing it was svn-1.4.6-setup.exe . After you installed subversion you might have to restart the system, because it modifies %PATH% variable.
 
-Next you should do a small modification to the following file: C:\Qt\4.3.4\bin\qtvars.bat (version of Qt of course can differ). Find in the file the line:
+Next you should do a small modification to the following file: C:\Qt\4.3.4\bin\qtvars.bat (version of Qt of course may differ). Find in the file the line:
 {{{
 set PATH=C:\Qt\4.3.4\bin
 }}}
