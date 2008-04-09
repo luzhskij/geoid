@@ -3,7 +3,7 @@ This page contains instructions how-to compile Geoid
 
 == Under Linux ==
 To install Geoid you need subversion to obtain source code and Qt4 development libraries to compile it. The way you install these packages depends on your distribution.
-For example, under ubuntu you should execute this command:
+For example, under ubuntu you can execute this command:
 {{{
 sudo apt-get install libqt4-dev subversion
 }}}
