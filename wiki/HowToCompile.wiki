@@ -20,4 +20,22 @@ Geoid executable binary will appear in bin/ subfolder
 == Under Windows ==
 First of all you should install Qt development libraries and MinGW(which is a Windows port of GNU Compileres). Qt setup file is available here: http://trolltech.com/developer/downloads/qt/windows (at the time of writing it was qt-win-opensource-4.3.4-mingw.exe). During installation it will offer you to download MinGW - you should agree with it.
 
-Next step is installing subversion.
+Next step is installing subversion. You can download the latest version here : http://subversion.tigris.org/servlets/ProjectDocumentList?folderID=91 At the time of writing it was svn-1.4.6-setup.exe . After you installed subversion you might have to restart the system, because it modifies %PATH% variable.
+
+Next you should do a small modification to the following file: C:\Qt\4.3.4\bin\qtvars.bat (version of Qt of course can differ). Find in the file the line:
+{{{
+set PATH=C:\Qt\4.3.4\bin
+}}}
+And change it to
+{{{
+set PATH=%PATH%;C:\Qt\4.3.4\bin
+}}}
+Once you finish go to the start Menu: Programs -> Qt by Trolltech (OpenSource) -> Qt Command Prompt. Change the directory to you projects directory, and type the following commands:
+{{{
+svn checkout http://geoid.googlecode.com/svn/trunk/ geoid
+cd geoid
+qmake
+make
+bin\geoid.exe
+}}}
+This will compile and run geoid
