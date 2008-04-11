@@ -1,7 +1,4 @@
 #labels screenshots
-Screenshots page
-
-
 === Grid ===
 
 [http://geoid.googlecode.com/svn/wiki/screenshots/grid.png]
