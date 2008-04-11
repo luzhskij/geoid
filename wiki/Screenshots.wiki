@@ -1,8 +1,19 @@
-= Introduction =
+#labels screenshots
+Screenshots page
 
-Add your content here.
 
-
-= Details =
+=== Grid ===
 
 [http://geoid.googlecode.com/svn/wiki/screenshots/grid.png]
+
+=== Wells ===
+
+[http://geoid.googlecode.com/svn/wiki/screenshots/wells.png]
+
+=== Skeleton ===
+Skeleton of the model, containing top, middle and bottom like in Petrel
+[http://geoid.googlecode.com/svn/wiki/screenshots/grid.png]
+
+=== Facies propertiy ===
+
+[http://geoid.googlecode.com/svn/wiki/screenshots/model.png]
