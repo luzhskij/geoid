@@ -1,6 +1,7 @@
 #labels screenshots
 === Grid ===
 
+
 [http://geoid.googlecode.com/svn/wiki/screenshots/grid.png]
 
 === Wells ===
