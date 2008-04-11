@@ -5,4 +5,4 @@ Add your content here.
 
 = Details =
 
-[http://pspplayer.googlecode.com/svn/wiki/screenshots/grid.png]
+[http://geoid.googlecode.com/svn/wiki/screenshots/grid.png]
