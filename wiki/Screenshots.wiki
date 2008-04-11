@@ -11,7 +11,7 @@
 
 === Skeleton ===
 Skeleton of the model, containing top, middle and bottom like in Petrel
-[http://geoid.googlecode.com/svn/wiki/screenshots/grid.png]
+[http://geoid.googlecode.com/svn/wiki/screenshots/skeleton.png]
 
 === Facies propertiy ===
 
